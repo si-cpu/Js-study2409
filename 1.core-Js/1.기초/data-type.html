@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var integer = 1100;
+        var float = 3.14;
+
+        // 타입확인용 키워드 typeof
+        console.log(typeof integer);
+        console.log(typeof float);
+        
+        // 에러는 나지 않지만 Infinity는 활용하기 힘듬..
+        // 왠만하면 안보이게 해 주세요.
+        console.log(30/0);
+
+        console.log(10/4);
+
+        // NAN: Not a Number -> 숫자가 아니다.
+        // 잘못된 연산, 표현할 수 없는 값의 결과
+        console.log(30/"메롱");
+        console.log('=============================================');
+
+        var greetings = "안녕";
+        greetings = '안녕'; // 주로 사용합니다!!!
+        greetings = `반갑습니다.`;
+
+        
+    </script>
+</body>
+</html>
