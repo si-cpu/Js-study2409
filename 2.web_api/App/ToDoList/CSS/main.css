@@ -1,0 +1,84 @@
+.wrapper {
+    width: 500px;
+    border: 0px solid rgb(255, 255, 255);
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 20px auto 0;
+    box-shadow: 2px 2px 3px 2px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  h1{
+      background-color: rgba(7, 173, 173, 0.966);
+      border-radius: 10px 10px 0px 0px;
+      padding: 10px;
+      text-align: center;
+      color: white;
+  }​
+  /* ------------------------윗부분 완료--------------------------- */
+  .content .todo-insert {
+      height: 30px;
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+  }
+  
+  
+  
+  .todo-insert #todo-text{
+      background-color: gray;
+      border: 0px;
+      margin: 0px 0px 0px 0px;
+
+      flex-grow: 10;
+
+  }
+  ::placeholder {
+      color: rgb(255, 255, 255);
+      opacity: 1; 
+    }
+  
+  .todo-insert #add{
+      border: 0px;
+      flex-grow: 1;
+      
+  }
+  /*---------------------- 소제목 완료--------------------------------- */
+  
+  .todo-list .todo-list-item{
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      border: 5px 0px 5px 0px;
+  }
+  
+  .todo-list .todo-list-item .checkbox{
+      width: 30px;
+      height: 30px;
+  }
+  
+  .todo-list .todo-list-item .text{
+      font-size: 20px;
+  }
+  
+  .lnr-cross-circle{
+      color: red;
+  }
+  
+  .lnr-undo{
+      color: green
+  }
+  
+  .todo-list-item .checkbox{
+      flex-grow: 30
+  } 
+  
+  .todo-list-item .modify{
+      flex-grow: 1
+  }
+  
+  .todo-list-item .remove{
+      flex-grow: 1
+  }
